@@ -1,0 +1,16 @@
+{
+  "name": "unionish",
+  "private": true,
+  "scripts": {
+    "build": "yarn tsc",
+    "check-solution": "yarn tsc -P tsconfig.solution.json"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "eslint": "*",
+    "prettier": "*",
+    "typescript": "*"
+  }
+}

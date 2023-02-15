@@ -3,13 +3,13 @@
  * `getConfigValues` is an object with properties for each of the config settings with string
  * values.
  *
- * Feel free to use editor assistance here.
+ * You do not need to change the implementation of either of these functions.
  */
 
 const configSettings = [
-  "var1",
-  "var2",
-  { name: "var3", defaultValue: "a default value" },
+  'var1',
+  'var2',
+  { name: 'var3', defaultValue: 'a default value' },
 ];
 
 function getConfigValues(settings) {
@@ -17,7 +17,7 @@ function getConfigValues(settings) {
     let settingName: string;
     let defaultValue: string | undefined;
 
-    if (typeof setting === "string") {
+    if (typeof setting === 'string') {
       settingName = setting;
     } else {
       settingName = setting.name;
@@ -30,10 +30,10 @@ function getConfigValues(settings) {
 }
 
 function getValueFromStore(settingName: string): string | undefined {
-  if (settingName === "var3") {
+  if (settingName === 'var3') {
     return;
   }
-  return "value";
+  return 'value';
 }
 
 const values = getConfigValues(configSettings);

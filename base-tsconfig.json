@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}
