@@ -1,0 +1,16 @@
+{
+  "name": "mapping-keys",
+  "private": true,
+  "scripts": {
+    "build": "yarn tsc",
+    "check-solution": "yarn build"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "eslint": "*",
+    "prettier": "*",
+    "typescript": "*"
+  }
+}

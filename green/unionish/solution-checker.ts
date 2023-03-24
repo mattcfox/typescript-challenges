@@ -1,5 +1,7 @@
 import { A, B, C, D, E, F, G, H, I, J, K, L, M, N, O } from './challenge';
 
+// Your solution should not include changing this file.
+
 type HExpected = Pick<A, keyof A & keyof B>;
 const HTest1: H = {} as HExpected;
 const HTest2: HExpected = {} as H;
