@@ -9,6 +9,7 @@ challenges that test your ability to write good generics, instead of merely func
 1.  Change to the directory of your challenge
 1.  Open `challenge.ts` and read the prompt
 1.  Make an attempt at a solution
+    - Only the `challenge.ts` file should be modified. The solution checker should be untouched.
 1.  Run `yarn check-solution`
 1.  If unsuccessful, go to step 4
 1.  Give yourself a pat on the back
